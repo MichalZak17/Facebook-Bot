@@ -3,12 +3,6 @@
 ## About Project
 - The program available above uses the powerful and efficient `fb chat` library, which allows us to interact with facebook messenger, using the account login and password.
 
----
-
-![](https://media.giphy.com/media/C4NdKtRaQE9m8/source.gif)
-
----
-
 ## Installation
 
 - Make sure you installed `git`, if not write `sudo apt install git` in your terminal.
