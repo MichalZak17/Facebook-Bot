@@ -3,6 +3,8 @@
 ## About Project
 - The program available above uses the powerful and efficient `fb chat` library, which allows us to interact with facebook messenger, using the account login and password.
 
+- The program was created to write messages to people when the account owner is offline or not available
+
 ## Installation
 
 - If you use linux make sure you installed `git`, if not write `$ sudo apt install git` in your terminal.
@@ -17,4 +19,4 @@
 
 - Clone this repo to your local machine using `$ git clone https://github.com/Malvare17/Facebook-Bot`
 
-Remember that you run the script at your own risk. Also remember that the program was created for educational purposes and the author is not obliged to do anything
+Remember that you run the script at your own risk. Also remember that the program was created for educational purposes and the author is not obliged to do anything.
