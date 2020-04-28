@@ -1,5 +1,7 @@
 # Facebook-Bot
 
+---
+
 ## About Project
 - The program available above uses the powerful and efficient `fb chat` library, which allows us to interact with facebook messenger, using the account login and password.
 
