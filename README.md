@@ -1,12 +1,22 @@
-# Auto Responding Facebook Bot
+# Facebook-Bot
 
-***Instalation***
+## About Project
+- 
 
-```python
-$pip install fbchat
-```
+--
 
-***About Project***
+![](https://mograph.video/2HwFiEL)
 
-I usend a powerful and efficient library to interact with Facebook Messanger, using just your email and password.
-The script automatically sends a message to the person who wrote us that we are unavailable now
+--
+
+## Installation
+
+- Make sure you installed `git`, if not `sudo apt install git`
+
+- Just copy the computer file and run it with the `python3 Worm.py` or `python Worm.py` command
+
+### Clone
+
+- Clone this repo to your local machine using `git clone https://github.com/Malvare17/Self-Replicator`
+
+Remember that you run the script at your own risk. Also remember that the program was created for educational purposes and the author is not obliged to do anything
