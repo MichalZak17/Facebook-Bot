@@ -2,7 +2,7 @@
 
 #Instalation
 
-```javascript
+```python
 $pip install fbchat
 ```
 
