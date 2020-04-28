@@ -5,7 +5,7 @@
 
 --
 
-![](https://mograph.video/2HwFiEL)
+![](https://media.giphy.com/media/26tn33aiTi1jkl6H6/source.gif)
 
 --
 
