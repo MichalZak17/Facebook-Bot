@@ -22,3 +22,12 @@
 Remember that you run the script at your own risk. Also remember that the program was created for educational purposes and the author is not obliged to do anything.
 
 ---
+## More options
+- If you want, you can add an automatic reply to specific messages.
+```python
+MessageReceived = message_object.text.lower()
+if MessageReceived == "MESSAGE":                
+  self.send(Facebook.Message(text="REPLAY")), thread_id = thread_id, thread_type = thread_type)
+                self.markAsDelivered(author_id, thread_id)
+                self.markAsRead(thread_id)
+```
