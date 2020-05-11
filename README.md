@@ -36,7 +36,7 @@ if MessageReceived == "MESSAGE":
                 self.markAsRead(thread_id)
 ```
 
-- If you want the program to respond to a specific message, I recommend using the `lower()` function to reduce the possible number of messages that will be checked and to which you want to reply
+- If you want the program to reply to a specific message drawn from the list, I recommend using the lower () function to reduce the possible number of messages that will be checked and to which you want to reply.
 
 ```python
 import random
