@@ -54,6 +54,6 @@ if MessageReceived in List:
 - If you want to send an emote.
 
 ```python          
-  self.send(Facebook.Message(text="👍", emoji_size=EmojiSize.LARGE), thread_id = thread_id, thread_type = thread_type)
+self.send(Facebook.Message(text="👍", emoji_size=EmojiSize.LARGE), thread_id = thread_id, thread_type = thread_type)
 ```
 
