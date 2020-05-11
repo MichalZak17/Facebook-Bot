@@ -7,10 +7,10 @@ class EchoBot(Facebook.Client):
        
         Facebook.log.info("{} from {} in {}".format(message_object, thread_id, thread_type.name))
 
-        reply = "I am currently unavailable, but I will contact you shortly. "
+        REPLAY = "I am currently unavailable, but I will contact you shortly. "
 
         if author_id != self.uid:
-           self.send(Facebook.Message(text=reply), thread_id=thread_id, thread_type=thread_type)
+           self.send(Facebook.Message(text=REPLAY), thread_id=thread_id, thread_type=thread_type)
         self.markAsDelivered(author_id, thread_id)
 
 client = EchoBot("Login", "Password")
