@@ -36,7 +36,8 @@ if MessageReceived == "MESSAGE":
                 self.markAsRead(thread_id)
 ```
 
-If you want the program to respond to a specific message, I recommend using the lower () function to reduce the possible number of messages that will be checked and to which you want to reply
+- If you want the program to respond to a specific message, I recommend using the `lower()` function to reduce the possible number of messages that will be checked and to which you want to reply
+
 ```python
 import random
 
@@ -44,12 +45,8 @@ MessageReceived = message_object.text.lower()
 
 List= ["MESSAGE1", "MESSAGE2"]
 
-if MessageReceived in List:
-				#Drawing answers from the list                
+if MessageReceived in List:             
   self.send(Facebook.Message(text=random.choice(List)), thread_id = thread_id, thread_type = thread_type)
-  
-  #If you want to send a specific message
-  #self.send(Facebook.Message(text="REPLAY"), thread_id = thread_id, thread_type = thread_type)
   
                 self.markAsDelivered(author_id, thread_id)
                 self.markAsRead(thread_id)
