@@ -47,6 +47,10 @@ List= ["MESSAGE1", "MESSAGE2"]
 if MessageReceived in List:
 				#Drawing answers from the list                
   self.send(Facebook.Message(text=random.choice(List)), thread_id = thread_id, thread_type = thread_type)
+  
+  #If you want to send a specific message
+  #self.send(Facebook.Message(text="REPLAY"), thread_id = thread_id, thread_type = thread_type)
+  
                 self.markAsDelivered(author_id, thread_id)
                 self.markAsRead(thread_id)
 ```
