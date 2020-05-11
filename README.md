@@ -1,3 +1,4 @@
+
 # Facebook-Bot
 
 ## About Project
@@ -22,31 +23,30 @@
 Remember that you run the script at your own risk. Also remember that the program was created for educational purposes and the author is not obliged to do anything.
 
 ---
-## More options
-- If you want, you can add an automatic reply to specific messages.
+
+## Additional documentation
+
+- If you want the program to reply only to a specific message.
 ```python
-#Example Code
-MessageReceived = message_object.text.lower()
+MessageReceived = message_object.text()
 
 if MessageReceived == "MESSAGE":                
   self.send(Facebook.Message(text="REPLAY")), thread_id = thread_id, thread_type = thread_type)
                 self.markAsDelivered(author_id, thread_id)
                 self.markAsRead(thread_id)
 ```
-- If you want the program to check if a message belongs to one of many messages and then draw a reply.
-```python
-#Example Code
 
-#REMEMBER TO IMPORT RANDOM !!!
+If you want the program to respond to a specific message, I recommend using the lower () function to reduce the possible number of messages that will be checked and to which you want to reply
+```python
 import random
 
 MessageReceived = message_object.text.lower()
 
-List = ["MESSAGE1", "MESSAGE2"]
-List2 = ["MESSAGE3", "MESSAGE4"]
+List= ["MESSAGE1", "MESSAGE2"]
 
-if MessageReceived in List:                
-  self.send(Facebook.Message(text=random.choice(List2)), thread_id = thread_id, thread_type = thread_type)
+if MessageReceived in List:
+								#Drawing answers from the list                
+  self.send(Facebook.Message(text=random.choice(List)), thread_id = thread_id, thread_type = thread_type)
                 self.markAsDelivered(author_id, thread_id)
                 self.markAsRead(thread_id)
 ```
