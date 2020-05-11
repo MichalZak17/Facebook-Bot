@@ -55,8 +55,5 @@ if MessageReceived in List:
 
 ```python          
   self.send(Facebook.Message(text="👍", emoji_size=EmojiSize.LARGE), thread_id = thread_id, thread_type = thread_type)
-  
-                self.markAsDelivered(author_id, thread_id)
-                self.markAsRead(thread_id)
 ```
 
