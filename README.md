@@ -43,7 +43,7 @@ import random
 
 MessageReceived = message_object.text.lower()
 
-List= ["MESSAGE1", "MESSAGE2"]
+List = ["MESSAGE1", "MESSAGE2"]
 
 if MessageReceived in List:             
   self.send(Facebook.Message(text=random.choice(List)), thread_id = thread_id, thread_type = thread_type)
@@ -51,6 +51,8 @@ if MessageReceived in List:
                 self.markAsDelivered(author_id, thread_id)
                 self.markAsRead(thread_id)
 ```
+You can make also another list with replays.
+
 - If you want to send an emote.
 
 ```python          
